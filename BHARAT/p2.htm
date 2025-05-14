@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Area and Perimeter</title>
+</head>
+<body>
+    <h2>Write a JavaScript program to take the length and width of a rectangle and print area or perimeter using user click</h2>
+
+    <label for="length">Length:</label>
+    <input type="number" id="length" placeholder="Enter length"><br><br>
+
+    <label for="width">Width:</label>
+    <input type="number" id="width" placeholder="Enter width"><br><br>
+
+    <button onclick="calculateArea()">Calculate Area</button>
+    <button onclick="calculatePerimeter()">Calculate Perimeter</button>
+
+    <p id="result"></p>
+
+    <script>
+        function calculateArea() {
+            let length = parseFloat(document.getElementById("length").value);
+            let width = parseFloat(document.getElementById("width").value);
+
+            if (isNaN(length) || isNaN(width)) {
+                document.getElementById("result").innerHTML = "Please enter valid numbers!";
+            } else {
+                let area = length * width;
+                document.getElementById("result").innerHTML = `Area of Rectangle = ${area}`;
+            }
+        }
+
+        function calculatePerimeter() {
+            let length = parseFloat(document.getElementById("length").value);
+            let width = parseFloat(document.getElementById("width").value);
+
+            if (isNaN(length) || isNaN(width)) {
+                document.getElementById("result").innerHTML = "Please enter valid numbers!";
+            } else {
+                let perimeter = 2 * (length + width);
+                document.getElementById("result").innerHTML = `Perimeter of Rectangle = ${perimeter}`;
+            }
+        }
+    </script>
+</body>
+</html>

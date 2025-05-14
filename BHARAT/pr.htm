@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even Checker</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        input{
+            background-color: greenyellow;
+            border: 2px solid hotpink;
+            width: 80%;
+            height: 40px;
+            align-items: center;
+        }
+
+        button{
+            background-color: orange;
+            border: 2px solid orangered;
+            width: 80px;
+            height: 20px;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Write a JavaScript program to take a number and check whether the number is odd or even.
+        Create two buttons: the first one is "Odd" and the second one is "Even". 
+        When the user clicks on the "Odd" button, display "Number is odd", and 
+        when the user clicks on the "Even" button, display "Number is even".
+    </h3>
+
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <br><br>
+    <button onclick="checkOdd()">Odd</button>
+    <button onclick="checkEven()">Even</button>
+    <p id="result"></p>
+
+    <script>
+        function checkOdd() {
+            var num = document.getElementById('numberInput').value;
+            if (num === "") {
+                document.getElementById('result').innerText = "Please enter a number.";
+            } else if (num % 2 !== 0) {
+                document.getElementById('result').innerText = "Number is Odd.";
+            } else {
+                document.getElementById('result').innerText = "Number is not Odd.";
+            }
+        }
+
+        function checkEven() {
+            var num = document.getElementById('numberInput').value;
+            if (num === "") {
+                document.getElementById('result').innerText = "Please enter a number.";
+            } else if (num % 2 === 0) {
+                document.getElementById('result').innerText = "Number is Even.";
+            } else {
+                document.getElementById('result').innerText = "Number is not Even.";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>States - BHARAT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-img">
+    <img src="\Aged Parchment Texture with Earthy Tones.png" alt="img/blank">
+  </div>
+    <h1>States of BHARAT</h1>
+
+    <div class="states-container">
+   
+   
+    <!-- Row 1 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="assam.html">
+          <img src="assam.jpg" alt="Assam">
+          <p>Assam</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="maharashtra.html">
+          <img src="maharashtra.jpg" alt="Maharashtra">
+          <p>Maharashtra</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="bihar.html">
+          <img src="bihar.jpg" alt="Bihar">
+          <p>Bihar</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="jammu_kashmir.html">
+          <img src="jammu & kashmir.jpg" alt="Jammu & Kashmir">
+          <p>Jammu & Kashmir</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 2 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="haryana.html">
+          <img src="harayana.jpg" alt="Haryana">
+          <p>Haryana</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="andhra_pradesh.html">
+          <img src="andhra pradesh.avif" alt="Andhra Pradesh">
+          <p>Andhra Pradesh</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="west_bengal.html">
+          <img src="west bengal.avif" alt="West Bengal">
+          <p>West Bengal</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="punjab.html">
+          <img src="punjab.avif" alt="Punjab">
+          <p>Punjab</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 3 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="tamil_nadu.html">
+          <img src="timal nadu.avif" alt="Tamil Nadu">
+          <p>Tamil Nadu</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="madhya_pradesh.html">
+          <img src="madhaya pradesh.avif" alt="Madhya Pradesh">
+          <p>Madhya Pradesh</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="kerala.html">
+          <img src="kreala.jpg" alt="Kerala">
+          <p>Kerala</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="uttar_pradesh.html">
+          <img src="u p india.jpg" alt="Uttar Pradesh">
+          <p>Uttar Pradesh</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 4 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="gujarat.html">
+          <img src="gujarat india.jpg" alt="Gujarat">
+          <p>Gujarat</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="rajasthan.html">
+          <img src="rajisthan india.jpg" alt="Rajasthan">
+          <p>Rajasthan</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="odisha.html">
+          <img src="odisha.jpg" alt="Odisha">
+          <p>Odisha</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="chhattisgarh.html">
+          <img src="chhattisgarh.jpg" alt="Chhattisgarh">
+          <p>Chhattisgarh</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 5 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="jharkhand.html">
+          <img src="jharkhand.jpg" alt="Jharkhand">
+          <p>Jharkhand</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="delhi.html">
+          <img src="delhi.png" alt="Delhi">
+          <p>Delhi</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="telangana.html">
+          <img src="telangana.jpg" alt="Telangana">
+          <p>Telangana</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="himachal_pradesh.html">
+          <img src="himachal pradesh.jpg" alt="Himachal Pradesh">
+          <p>Himachal Pradesh</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 6 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="goa.html">
+          <img src="goa india.avif" alt="Goa">
+          <p>Goa</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="manipur.html">
+          <img src="manipur.jpg" alt="Manipur">
+          <p>Manipur</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="nagaland.html">
+          <img src="nagaland india.avif" alt="Nagaland">
+          <p>Nagaland</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="meghalaya.html">
+          <img src="meghalaya india.avif" alt="Meghalaya">
+          <p>Meghalaya</p>
+        </a>
+      </div>
+    </div>
+    <!-- Row 7 -->
+    <div class="state-row">
+      <div class="state">
+        <a href="tripura.html">
+          <img src="tripura.jpg" alt="Tripura">
+          <p>Tripura</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="arunachal_pradesh.html">
+          <img src="arunachal pradesh india.avif" alt="Arunachal Pradesh">
+          <p>Arunachal Pradesh</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="sikkim.html">
+          <img src="sikkim india.jpg" alt="Sikkim">
+          <p>Sikkim</p>
+        </a>
+      </div>
+      <div class="state">
+        <a href="chandigarh.html">
+          <img src="chandigarh.jpg" alt="Chandigarh">
+          <p>Chandigarh</p>
+        </a>
+      </div>
+    </div>
+    </div>
+ 
+
+</body>
+</html>
